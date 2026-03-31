@@ -16,8 +16,8 @@ function Hero() {
 
       <div className="hero-card">
         <img
-          src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=1000&q=80"
-          alt="Catering event table with dishes"
+          src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1000"
+          alt="Fresh vegan salad bowl with vegetables"
         />
         <div className="hero-card-content">
           <h3>We make catering easy</h3>

@@ -3,16 +3,16 @@ const menuCategories = [
     title: 'Indian Cuisine',
     items: [
       {
-        name: 'Tandoori Platter',
-        description: 'Smoky tandoori chicken, paneer tikka, naan, and spiced chutneys for a festive spread.',
+        name: 'Paneer Tikka Platter',
+        description: 'Smoky paneer tikka, vegetable kebabs, naan, and spiced chutneys for a festive spread.',
       },
       {
-        name: 'Butter Chicken Feast',
-        description: 'Creamy tomato curry with tender chicken, saffron rice, and garlic naan.',
+        name: 'Chana Masala Feast',
+        description: 'Rich chickpea curry served with basmati rice, garlic naan, and pickled onions.',
       },
       {
         name: 'Street Food Chaat',
-        description: 'Crispy samosa chaat, pani puri shots, and tangy bhelpuri for a lively buffet station.',
+        description: 'Crispy samosa chaat, pani puri shots, and tangy bhelpuri for a lively vegetarian buffet station.',
       },
     ],
   },
@@ -20,12 +20,12 @@ const menuCategories = [
     title: 'Thai Cuisine',
     items: [
       {
-        name: 'Pad Thai Set',
-        description: 'Classic stir-fried rice noodles with shrimp, peanuts, tamarind, and lime.',
+        name: 'Vegetarian Pad Thai Set',
+        description: 'Stir-fried rice noodles with tofu, peanuts, tamarind, and fresh lime.',
       },
       {
         name: 'Green Curry Bowl',
-        description: 'Fragrant coconut curry with jasmine rice, vegetables, and your choice of protein.',
+        description: 'Fragrant coconut curry with seasonal vegetables, tofu, and jasmine rice.',
       },
       {
         name: 'Mango Sticky Rice',

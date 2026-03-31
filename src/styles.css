@@ -195,11 +195,16 @@ body {
 }
 
 .location-card,
-.review-card {
+.review-card,
+.review-form-card {
   background: white;
   border-radius: 24px;
   padding: 28px;
   box-shadow: 0 18px 40px rgba(67, 56, 40, 0.08);
+}
+
+.review-form-card {
+  margin-top: 40px;
 }
 
 .review-stars {
@@ -215,6 +220,47 @@ body {
 
 .review-card strong {
   color: #1f2937;
+}
+
+.review-form {
+  display: grid;
+  gap: 16px;
+}
+
+.review-form label {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form select {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #d6d3d1;
+  border-radius: 16px;
+  font: inherit;
+}
+
+.review-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.review-form button {
+  width: fit-content;
+  background: #d97706;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.review-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 .contact-grid {

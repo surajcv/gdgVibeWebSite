@@ -6,15 +6,14 @@ type PageId = 'home' | 'services' | 'menu' | 'location' | 'reviews' | 'contact';
 const pages: Array<{
   id: PageId;
   label: string;
-  themeClass: string;
   Component: ComponentType;
 }> = [
-  { id: 'home', label: 'Home', themeClass: 'theme-sunrise', Component: Hero },
-  { id: 'services', label: 'Services', themeClass: 'theme-olive', Component: Services },
-  { id: 'menu', label: 'Menu', themeClass: 'theme-cobalt', Component: Menu },
-  { id: 'location', label: 'Location', themeClass: 'theme-lavender', Component: Location },
-  { id: 'reviews', label: 'Reviews', themeClass: 'theme-dusk', Component: Reviews },
-  { id: 'contact', label: 'Contact', themeClass: 'theme-teal', Component: Contact },
+  { id: 'home', label: 'Home', Component: Hero },
+  { id: 'services', label: 'Services', Component: Services },
+  { id: 'menu', label: 'Menu', Component: Menu },
+  { id: 'location', label: 'Location', Component: Location },
+  { id: 'reviews', label: 'Reviews', Component: Reviews },
+  { id: 'contact', label: 'Contact', Component: Contact },
 ];
 
 function App() {
@@ -36,7 +35,7 @@ function App() {
   const ActiveComponent = currentPage.Component;
 
   return (
-    <div className={`app-shell ${currentPage.themeClass}`}>
+    <div className="app-shell theme-default">
       <header className="site-header">
         <div className="brand">GDG Vibe Catering</div>
         <nav className="nav-links">
